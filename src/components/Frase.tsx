@@ -1,10 +1,9 @@
 import imgFrase from "/frase.png";
-import imgSenior from "/programador.jpg";
 
 export default function Frase() {
   return (
     <section className="mt-20">
-        <h3 className="text-white text-center text-4xl font-oswald font-bold mb-10">Frases Celebres</h3>
+        <h2 className="text-white text-center text-4xl font-oswald font-bold mb-10">Frases Celebres</h2>
       <div className="flex justify-center gap-12 text-white ">
         <div className="w-1/2">
           <img src={imgFrase} className="rounded-md" alt="imagen frase" />
@@ -20,9 +19,6 @@ export default function Frase() {
           </div>
         </div>
       </div>
-        <h3 className="text-white text-center text-4xl font-oswald font-bold mt-20 mb-10">Programador Senior con 20 Años de Experiencia</h3>
-        <img className="rounded-md w-3/4 mx-auto" src={imgSenior} alt="Imagen programador" />
-
     </section>
   );
 }

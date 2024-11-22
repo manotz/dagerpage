@@ -1,9 +1,11 @@
 import Footer from "./components/Footer"
 import Frase from "./components/Frase"
 import Galeria from "./components/Galeria"
+import Guitarras from "./components/Guitarras"
 import Header from "./components/Header"
 import Introduccion from "./components/Introduccion"
 import Seccion2 from "./components/Seccion2"
+import UltimaParte from "./components/UltimaParte"
 
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
             <Galeria />
 
             <Frase/>
+
+            <Guitarras/>
+
+            <UltimaParte/>
 
        <Footer/>
     </>
