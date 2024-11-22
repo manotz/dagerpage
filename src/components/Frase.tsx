@@ -1,4 +1,4 @@
-import imgFrase from "/frase.png";
+import imgFrase from "/frase.webp";
 
 export default function Frase() {
   return (

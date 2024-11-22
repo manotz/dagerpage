@@ -1,4 +1,4 @@
-import perfilImg from "/perfil.png";
+import perfilImg from "/perfil.webp";
 
 export default function Introduccion() {
   return (

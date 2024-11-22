@@ -1,6 +1,6 @@
-import guitarra1 from "/guitarra_04.jpg";
-import guitarra2 from "/guitarra_06.jpg";
-import guitarra3 from "/guitarra_10.jpg";
+import guitarra1 from "/guitarra_04.webp";
+import guitarra2 from "/guitarra_06.webp";
+import guitarra3 from "/guitarra_10.webp";
 
 export default function Guitarras() {
   return (

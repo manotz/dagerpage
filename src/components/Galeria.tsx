@@ -1,8 +1,8 @@
-import img1 from "/01.jpg";
-import img2 from "/02.png";
-import img3 from "/03.jpg";
-import img4 from "/04.jpg";
-import img5 from "/05.jpg";
+import img1 from "/01.webp";
+import img2 from "/02.webp";
+import img3 from "/03.webp";
+import img4 from "/04.webp";
+import img5 from "/05.webp";
 
 export default function Galeria() {
   return (
@@ -12,23 +12,23 @@ export default function Galeria() {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
       <div className="relative hover:scale-105 transform transition duration-300">
-        <img src={img1} alt="Imagen 1" className="w-full h-auto rounded-lg shadow-lg"/>
+        <img src={img1} loading="lazy" alt="Imagen 1" className="w-full h-auto rounded-lg shadow-lg"/>
       </div>
 
       <div className="relative col-span-2 row-span-2 hover:scale-105 transform transition duration-300">
-        <img src={img2} alt="Imagen 2" className="w-full h-full object-cover rounded-lg shadow-lg"/>
+        <img src={img2} loading="lazy" alt="Imagen 2" className="w-full h-full object-cover rounded-lg shadow-lg"/>
       </div>
    
       <div className="relative hover:scale-105 transform transition duration-300">
-        <img src={img3} alt="Imagen 3" className="w-full h-auto rounded-lg shadow-lg "/>
+        <img src={img3} loading="lazy" alt="Imagen 3" className="w-full h-auto rounded-lg shadow-lg "/>
       </div>
 
       <div className="relative hover:scale-105 transform transition duration-300">
-        <img src={img4} alt="Imagen 4" className="w-full h-auto rounded-lg shadow-lg"/>
+        <img src={img4} loading="lazy" alt="Imagen 4" className="w-full h-auto rounded-lg shadow-lg"/>
       </div>
 
       <div className="relative hover:scale-105 transform transition duration-300">
-        <img src={img5} alt="Imagen 5" className="w-full h-auto rounded-lg shadow-lg"/>
+        <img src={img5} loading="lazy" alt="Imagen 5" className="w-full h-auto rounded-lg shadow-lg"/>
       </div>
     </div>
     </>
